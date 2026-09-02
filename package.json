@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "test:map": "node scripts/test-climate-map.cjs"
+    "test:map": "node scripts/test-climate-map.cjs",
+    "test:insights": "node scripts/test-insights.cjs"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.8",

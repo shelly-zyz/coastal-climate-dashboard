@@ -350,7 +350,6 @@ export default function ChinaMap3D(props: Props) {
       <Suspense fallback={null}><Scene {...props} geo={geo} viewRequest={viewRequest} /></Suspense>
     </Canvas></MapBoundary>
     <SouthSeaInset geo={geo} />
-    <div className="map-engine-badge">固定视角 · 拖动平移 · 点击查数</div>
     <div className="map-view-controls" role="group" aria-label="地图视图控制">
       <button type="button" aria-label="放大地图" title="放大地图" onClick={() => requestView("in")}><Plus size={15} /></button>
       <button type="button" aria-label="缩小地图" title="缩小地图" onClick={() => requestView("out")}><Minus size={15} /></button>
